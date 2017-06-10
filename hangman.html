@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en=us">
+
+<head>
+    <title>Hangman Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="hangman.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Let's Play Hangman!</h1>
+            <p>Click the button to get started</p>
+            <p>
+                <a id="randomWordButton" class="btn btn-primary btn-lg" role="button">Generate a new random word</a></p>
+        </div>
+        <div class="row ">
+            <div class="col-md-6 ">
+                <div class="panel panel-default ">
+                    <div class="panel-body ">
+                        hangman graphic panel goes here
+                        <p></p>
+                        <img src="http://www.sightwordsgame.com/wp-content/uploads/2011/11/Hangman.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="panel panel-default ">
+                    <div class="panel-body ">
+                        <div class="btn-group btn-group-sm">
+                            <button class="letterBtn btn-default">a</button>
+                            <button class="letterBtn btn-default">b</button>
+                            <button class="letterBtn btn-default">c</button>
+                            <button class="letterBtn btn-default">d</button>
+                            <button class="letterBtn btn-default">e</button>
+                            <button class="letterBtn btn-default">f</button>
+                            <button class="letterBtn btn-default">g</button>
+                            <button class="letterBtn btn-default">h</button>
+                            <button class="letterBtn btn-default">i</button>
+                            <button class="letterBtn btn-default">j</button>
+                            <button class="letterBtn btn-default">k</button>
+                            <button class="letterBtn btn-default">l</button>
+                            <button class="letterBtn btn-default">m</button>
+                            <button class="letterBtn btn-default">n</button>
+                            <button class="letterBtn btn-default">o</button>
+                            <button class="letterBtn btn-default">p</button>
+                            <button class="letterBtn btn-default">q</button>
+                            <button class="letterBtn btn-default">r</button>
+                            <button class="letterBtn btn-default">s</button>
+                            <button class="letterBtn btn-default">t</button>
+                            <button class="letterBtn btn-default">u</button>
+                            <button class="letterBtn btn-default">v</button>
+                            <button class="letterBtn btn-default">w</button>
+                            <button class="letterBtn btn-default">x</button>
+                            <button class="letterBtn btn-default">y</button>
+                            <button class="letterBtn btn-default">z</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-6 text-center ">
+                <div class="panel panel-default ">
+                    <div class="panel-body ">
+                        <div id="guessPanel"></div>
+                        <h1></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-6 text-center ">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Wrong Guesses</h3>
+                        </div>
+                        <div class="wrongGuessPanel">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="hangman javascript.js"></script>
+</body>
+
+</html>
